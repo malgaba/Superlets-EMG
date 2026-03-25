@@ -72,3 +72,5 @@ A demonstration is included, applying the same approach as in **Figure 3** of th
 
 ## References
 Moca, V. V., Bârzan, H., Nagy-Dăbâcan, A., & Mureșan, R. C. (2021). Time-frequency super-resolution with superlets. Nature Communications, 12(1), 337. https://doi.org/10.1038/s41467-020-20539-9
+
+Algaba-Vidoy, M., Corvini G., Gómez-García, J. A., Torricelli, D., Conforto, S. & Moreno, J. C. (2026). Under revision.
