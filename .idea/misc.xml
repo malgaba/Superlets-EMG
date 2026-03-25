@@ -3,5 +3,8 @@
   <component name="Black">
     <option name="sdkName" value="ictus-synergies" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="ictus-synergies" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Superlets-Marina" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
 </project>

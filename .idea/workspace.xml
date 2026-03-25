@@ -5,32 +5,497 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99ae726-491d-43d9-8b35-b531b9b2fd51" name="Changes" comment="Resolution in time">
-      <change afterPath="$PROJECT_DIR$/RESULTS/signal_burst_1.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/new.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/new_comparison_superlet.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/new_comparison_superlet_2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/simulated_emg_3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/simulated_emg_4.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/simulated_emg_5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/parameters_optimization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/parameters_optimization/define_space.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/superlets_package/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/superlets_package/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/superlets_package/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/superlets_package/morlet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SingularSuperletPY/superlets_package/superlets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/Figures_paper_SLT.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/coefficient_variation_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/psd_snr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/scalogram_stft_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/scalogram_superlet_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/scalogram_wavelet_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/115.72 Hz/signal_snr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/coefficient_variation_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/psd_snr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/scalogram_stft_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/scalogram_superlet_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/scalogram_wavelet_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/149.14 Hz/signal_snr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/coefficient_variation_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/psd_snr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/scalogram_stft_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/scalogram_superlet_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/scalogram_wavelet_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/40.77 Hz/signal_snr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/MAE_comparison_combined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/ISEK2026/0.5S_NEW/MAE_comparison_combined_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/115.72 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/115.72 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/127.37 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/127.37 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/137.0 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/137.0 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/149.14 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/149.14 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/40.77 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/40.77 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/60.57 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/60.57 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/92.68 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/92.68 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/0.5S/MAE_comparison_combined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/115.72 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/115.72 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/127.37 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/127.37 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/137.0 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/137.0 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/149.14 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/149.14 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/40.77 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/40.77 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/60.57 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/60.57 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/92.68 Hz.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/cwt_response_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/mae_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/mae_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/maes_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/maes_t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/responses_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/responses_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/scalogram_cwt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/scalogram_slt_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/92.68 Hz/spectrogram_sst_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/MAE_comparison_combined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/MAE_f_results_CWT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/MAE_f_results_STFT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/MAE_t_results_CWT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RESULTS/PAPER/1S/MAE_t_results_STFT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/images/CWT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/images/SLT_emg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/images/SLT_original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/images/STFT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/compare_plots.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/fatigue_isek.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/new_comparison_superlet.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/new_parameter_optimization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/parameter_optimization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/parameter_optimization_sst.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/real_signal.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/real_signal_sst.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/singular_superlet.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/singular_superlet_demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/slt_real_emg.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/slt_simulated_emg.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_functions/statistical_analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slt_emg.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superlets_package/auxiliar_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superlets_package/cwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superlets_package/superlet_original.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/superlets_package/superlets_emg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingularSuperletPY/SingularSuperletPY/cwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SingularSuperletPY/SingularSuperletPY/cwt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingularSuperletPY/SingularSuperletPY/sst.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SingularSuperletPY/SingularSuperletPY/sst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Superlets-Marina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Superlets-Marina.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/simulated_emg_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simulated_emg_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/110.98 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/5dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/114.72 Hz/InfdB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/5dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/126.37 Hz/InfdB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/15dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/5dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/203.37 Hz/InfdB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/15dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/15dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/15dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/15dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/15dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/5dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/39.77 Hz/InfdB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/5dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/59.57 Hz/InfdB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/5dB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_stft_200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_stft_38.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_stft_413.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_stft_550.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_stft_600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_superlet_1-3-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_superlet_1-5-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_superlet_3-1-30.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_superlet_5-1-40.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_superlet_5-1-50.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_wv_16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_wv_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_wv_33.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_wv_55.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/91.68 Hz/InfdB_wv_60.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESULTS/signal_burst_1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo_2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/new.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/new_comparison_superlet.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/new_comparison_superlet_2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/simulated_emg.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/simulated_emg_2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/simulated_emg_3.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/simulated_emg_4.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/simulated_emg_5.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/superlets_package" beforeDir="false" afterPath="$PROJECT_DIR$/superlets_package" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superlets_package/superlets.py" beforeDir="false" afterPath="$PROJECT_DIR$/superlets_package/superlets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlets_package/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlets_package/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlets_package/morlet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/superlets_package/superlets.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/superlets_package" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GithubDefaultAccount">
@@ -38,6 +503,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/opt/anaconda3/envs/ictus-synergies/lib/python3.8/site-packages/IPython/core/interactiveshell.py" root0="SKIP_INSPECTION" />
+    <setting file="file:///opt/anaconda3/envs/Superlets-Marina/lib/python3.8/site-packages/optuna/study/_optimize.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,32 +512,44 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2pCuyBI2Zu8cjeovUG6qyf81y25" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.project",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/demo" />
+      <recent name="$PROJECT_DIR$/superlets_package" />
+      <recent name="$PROJECT_DIR$/../SingularSuperletPY" />
+      <recent name="/opt/anaconda3/envs/Superlets-Marina/lib/python3.8/site-packages/SingularSuperletPY" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/my_functions" />
+      <recent name="$PROJECT_DIR$/../SingularSuperletPY" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -138,7 +616,90 @@
       <workItem from="1741544446436" duration="2943000" />
       <workItem from="1741598345786" duration="23888000" />
       <workItem from="1741697919156" duration="11456000" />
-      <workItem from="1741775460974" duration="6374000" />
+      <workItem from="1741775460974" duration="20078000" />
+      <workItem from="1741963936399" duration="2338000" />
+      <workItem from="1742049765759" duration="12121000" />
+      <workItem from="1742202452337" duration="23390000" />
+      <workItem from="1742375058814" duration="34810000" />
+      <workItem from="1742542641675" duration="14811000" />
+      <workItem from="1742805968694" duration="603000" />
+      <workItem from="1745221274856" duration="39678000" />
+      <workItem from="1745391629985" duration="1525000" />
+      <workItem from="1745395662117" duration="527000" />
+      <workItem from="1745396293442" duration="5046000" />
+      <workItem from="1745401359641" duration="22000" />
+      <workItem from="1745401394402" duration="4259000" />
+      <workItem from="1745409096561" duration="734000" />
+      <workItem from="1745410146060" duration="1019000" />
+      <workItem from="1745412357774" duration="1522000" />
+      <workItem from="1745414736188" duration="272000" />
+      <workItem from="1745415614419" duration="5787000" />
+      <workItem from="1745492973132" duration="3996000" />
+      <workItem from="1745656214367" duration="2195000" />
+      <workItem from="1746428536747" duration="15181000" />
+      <workItem from="1746608737926" duration="3000" />
+      <workItem from="1746615734926" duration="14191000" />
+      <workItem from="1746714559032" duration="5385000" />
+      <workItem from="1747144587276" duration="8040000" />
+      <workItem from="1747206844065" duration="18378000" />
+      <workItem from="1747382342402" duration="3114000" />
+      <workItem from="1747735665566" duration="601000" />
+      <workItem from="1748513168394" duration="599000" />
+      <workItem from="1748943064239" duration="599000" />
+      <workItem from="1748971560926" duration="42000" />
+      <workItem from="1749045812356" duration="14758000" />
+      <workItem from="1749134623036" duration="18263000" />
+      <workItem from="1749548230432" duration="13248000" />
+      <workItem from="1750662491350" duration="21720000" />
+      <workItem from="1750759844683" duration="20216000" />
+      <workItem from="1750844211416" duration="7068000" />
+      <workItem from="1751448748062" duration="1591000" />
+      <workItem from="1751536160056" duration="5899000" />
+      <workItem from="1752574607585" duration="19845000" />
+      <workItem from="1755598844429" duration="1089000" />
+      <workItem from="1756808678176" duration="1318000" />
+      <workItem from="1756969236615" duration="3305000" />
+      <workItem from="1756979778959" duration="10654000" />
+      <workItem from="1758096070705" duration="690000" />
+      <workItem from="1758118561408" duration="9210000" />
+      <workItem from="1758635033266" duration="187000" />
+      <workItem from="1758636203883" duration="610000" />
+      <workItem from="1759142898216" duration="681000" />
+      <workItem from="1759310577037" duration="598000" />
+      <workItem from="1759410474681" duration="599000" />
+      <workItem from="1759481107812" duration="597000" />
+      <workItem from="1759734592303" duration="495000" />
+      <workItem from="1760347548785" duration="1978000" />
+      <workItem from="1760621490812" duration="1343000" />
+      <workItem from="1760950392044" duration="15440000" />
+      <workItem from="1762777460160" duration="5547000" />
+      <workItem from="1762855335613" duration="2064000" />
+      <workItem from="1762861370201" duration="34769000" />
+      <workItem from="1763461244478" duration="13648000" />
+      <workItem from="1763544388888" duration="67045000" />
+      <workItem from="1764156381377" duration="22849000" />
+      <workItem from="1764581058537" duration="58443000" />
+      <workItem from="1765876592235" duration="2158000" />
+      <workItem from="1765976569220" duration="36164000" />
+      <workItem from="1768550879303" duration="15731000" />
+      <workItem from="1768810164030" duration="37274000" />
+      <workItem from="1768923305547" duration="2491000" />
+      <workItem from="1768986303539" duration="56000" />
+      <workItem from="1769005781533" duration="19942000" />
+      <workItem from="1770196534051" duration="20749000" />
+      <workItem from="1770287539155" duration="29000" />
+      <workItem from="1770301295311" duration="946000" />
+      <workItem from="1770732540299" duration="598000" />
+      <workItem from="1770891829109" duration="1158000" />
+      <workItem from="1771230831009" duration="581000" />
+      <workItem from="1771492717562" duration="1878000" />
+      <workItem from="1772454703699" duration="42292000" />
+      <workItem from="1773137451849" duration="245000" />
+      <workItem from="1773137711994" duration="4910000" />
+      <workItem from="1773307275721" duration="10472000" />
+      <workItem from="1773469849820" duration="2394000" />
+      <workItem from="1774017448786" duration="595000" />
+      <workItem from="1774255144257" duration="16666000" />
     </task>
     <task id="LOCAL-00001" summary="Resolution in time">
       <option name="closed" value="true" />
@@ -220,85 +781,261 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
-          <line>36</line>
+          <line>48</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
-          <line>2046</line>
-          <option name="timeStamp" value="68" />
+          <line>1673</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
-          <line>2053</line>
-          <option name="timeStamp" value="69" />
+          <line>2510</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
-          <line>257</line>
-          <option name="timeStamp" value="75" />
+          <line>211</line>
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
-          <line>637</line>
-          <option name="timeStamp" value="76" />
+          <line>550</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>207</line>
-          <option name="timeStamp" value="13" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
+          <line>89</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>203</line>
-          <option name="timeStamp" value="14" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/parameter_optimization.ipynb</url>
+          <line>981</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>317</line>
-          <option name="timeStamp" value="16" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/compare_plots.ipynb</url>
+          <line>764</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>260</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/morlet.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>350</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>635</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>685</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/compare_plots.ipynb</url>
           <line>750</line>
-          <option name="timeStamp" value="62" />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/real_signal.ipynb</url>
+          <line>233</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/real_signal.ipynb</url>
+          <line>363</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/real_signal.ipynb</url>
+          <line>37</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/real_signal.ipynb</url>
+          <line>186</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
+          <line>266</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
+          <line>306</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_comparison_superlet.ipynb</url>
+          <line>421</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/real_signal.ipynb</url>
+          <line>749</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/singular_superlet_demo.ipynb</url>
+          <line>153</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/parameter_optimization_sst.ipynb</url>
+          <line>264</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/singular_superlet.ipynb</url>
+          <line>163</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/singular_superlet.ipynb</url>
+          <line>157</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/parameter_optimization_sst.ipynb</url>
+          <line>756</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/parameter_optimization_sst.ipynb</url>
+          <line>1429</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/real_signal.ipynb</url>
+          <line>218</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/parameter_optimization_sst.ipynb</url>
+          <line>247</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/parameter_optimization.ipynb</url>
+          <line>118</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet.ipynb</url>
+          <line>75</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet.ipynb</url>
+          <line>72</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet.ipynb</url>
+          <line>170</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet.ipynb</url>
+          <line>160</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet.ipynb</url>
+          <line>268</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/new_parameter_optimization.ipynb</url>
+          <line>52</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/new_parameter_optimization.ipynb</url>
+          <line>121</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet_2.ipynb</url>
+          <line>237</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/Downloads/demo_unofficial.ipynb</url>
+          <line>72</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet_2.ipynb</url>
+          <line>153</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_superlet_2.ipynb</url>
+          <line>163</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/demo/new_real_emg.ipynb</url>
+          <line>122</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/slt_simulated_emg.ipynb</url>
+          <line>1465</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/slt_simulated_emg.ipynb</url>
+          <line>1485</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/slt_simulated_emg.ipynb</url>
+          <line>1484</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/slt_simulated_emg.ipynb</url>
+          <line>572</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/statistical_analysis.ipynb</url>
+          <line>158</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/statistical_analysis_real.ipynb</url>
+          <line>69</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/statistical_analysis_real.ipynb</url>
+          <line>68</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/slt_simulated_emg.ipynb</url>
+          <line>217</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/neuralrehabilitationgroup/PycharmProjects/Superlets-Marina/slt_emg.ipynb</url>
+          <line>156</line>
+          <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/superlets_package/superlets.py</url>
-          <line>485</line>
-          <option name="timeStamp" value="77" />
+          <url>file:///opt/anaconda3/envs/Superlets-Marina/lib/python3.8/site-packages/SingularSuperletPY/sst.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../SingularSuperletPY/parameters_optimization/define_space.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../SingularSuperletPY/parameters_optimization/define_space.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Superlets_Marina$bin_to_csv.coverage" NAME="bin_to_csv Coverage Results" MODIFIED="1768470104527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/Superlets_Marina$superlets.coverage" NAME="superlets Coverage Results" MODIFIED="1749133615934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/superlets_package" />
+    <SUITE FILE_PATH="coverage/Superlets_Marina$Read_sessantaquattroplus.coverage" NAME="Read_sessantaquattroplus Coverage Results" MODIFIED="1768468583204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/Superlets_Marina$Read_sessantaquattroplus_Gio.coverage" NAME="Read_sessantaquattroplus_Gio Coverage Results" MODIFIED="1768469924167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
 </project>
